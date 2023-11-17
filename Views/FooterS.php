@@ -2,7 +2,7 @@
 <html>
 <title>FOOTER</title>
 
-<head>
+    <head>
     <link rel="stylesheet" href="../assets/Estilo/Footer.css">
 </head>
 
