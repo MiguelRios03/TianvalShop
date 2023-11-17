@@ -1,0 +1,88 @@
+body{
+   
+    margin: 0%;
+       padding: 0%;
+       font-family: Courier;
+       background:darkgray;
+       height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 0;
+    font-family: Courier;
+}
+a:hover{
+    transform: scale(1.1);
+    color: #9e0004;
+
+}
+.formulario{
+    width: 500px;
+    top: 50%;
+    width: 50%;
+    background: white;
+    border-radius: 30px;
+    border-color: black;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.formulario h1{
+   text-align: center;
+   padding: 0 0 20 0;
+   border-bottom: 2px solid rgb(230, 4, 4);
+   text-decoration-style: solid;
+}
+.formulario h2{
+   text-align: center;
+   padding: 0 0 20 0;
+   text-decoration-style: solid;
+}
+.formulario h3{
+    text-align: center;
+    padding: 0 0 20 0;
+    text-decoration-style: solid;
+    border-top: 2px solid rgb(230, 4, 4);
+ }
+ 
+.formulario i{
+    border-radius: 10px;
+    padding: 10px;    
+}
+
+ .formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    
+}
+
+label{
+    position: relative;
+    top: 50%;
+    left: 5px;   
+    color: black;
+    transform: translateY(-50%);    
+    pointer-events: none;
+}
+
+input{
+    width: 100%;
+    padding: auto;
+    height: 40px;
+    font-size: 16px;
+    font-family: Courier;
+}
+
+.Validar{
+    text-align: center;
+    justify-content: center;
+}
+
+.boton{
+    width: 120px;
+    height: 30px;
+    font-family: Courier;
+    font-size: 16px;
+    margin: 20px;
+}

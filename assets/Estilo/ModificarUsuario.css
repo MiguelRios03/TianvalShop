@@ -1,0 +1,107 @@
+body{
+   
+    margin: 0%;
+       padding: 0%;
+       font-family: Courier;
+       background:darkgray;
+       height: 100vh;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+   padding: 10px 10px 0;
+   font-family: Courier;
+}
+
+a:hover{
+   transform: scale(1.1);
+   color: #9e0004;
+
+}
+
+.form.container {  
+   width: 500px;
+   top: 50%;
+   width: 50%;
+   background: white;
+   border-radius: 30px;
+   border-color: black;
+   margin-left: 25%;
+   margin-top: 20px;
+      
+}
+
+.form.container form{
+   padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.container{
+       max-width: 700px; 
+       padding: 20px;
+       
+}
+   
+.form.container h2 {
+   text-align: center;
+   padding: 0 0 20 0;
+   border-bottom: 2px solid rgb(230, 4, 4);
+   text-decoration-style: solid;
+}
+
+label {
+   display: block;
+   font-weight: bold;
+   color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+   width: 90%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 16px;
+}
+
+.boton {
+   width: 120px;
+   height: 30px;
+   font-family: Courier;
+   font-size: 16px;
+   margin: 20px;
+  
+}
+
+.boton:hover {
+   background-color:  white;
+}
+
+#contacto:hover{
+   transform: scale(1.2);
+}
+
+.CollapseI {
+   cursor: pointer;
+}
+
+.contact {
+
+   text-align: center;
+
+}
+.botones{
+   text-align: center;
+}
+.botones img{
+   width: 90px;
+   height: 90px;
+}
+.Enviar{
+   text-align: center;
+   justify-content: center;
+}

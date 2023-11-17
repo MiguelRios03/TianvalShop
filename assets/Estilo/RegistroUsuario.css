@@ -1,0 +1,123 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Courier;
+    background:darkgray;
+    height: 100vh;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 0;
+    font-family: Courier;
+}
+a:hover{
+    transform: scale(1.1);
+    color: #9e0004;
+
+}
+
+.formulario{
+    top: 50%;
+    width: 50%;
+    background: white;
+    border-radius: 30px;
+    border-color: black;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20 0;
+    border-bottom: 1px solid red;
+    text-decoration-style: solid;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.texto{
+    width: 100%;
+    padding: auto;
+    height: 40px;
+    font-size: 16px;
+}
+
+.registrar{
+    text-align: center;
+}
+.boton{
+    width: 120px;
+    height: 30px;
+    font-family: Courier;
+    font-size: 16px;
+    margin: 20px;
+}
+
+label{
+    position: relative;
+    top: 50%;
+    left: 5px;   
+    color: black;
+    transform: translateY(-50%);    
+    pointer-events: none;
+}
+
+.formulario i{
+    border-radius: 50%;
+    padding: 20px;    
+}
+
+@media screen and (max-width:750px){
+
+    .formulario h1{
+        text-align: center;
+        padding: 0 0 20 0;
+        border-bottom: 2px solid rgb(230, 4, 4);
+        font-size: 22px;
+        text-decoration-style: solid;
+     }
+     .formulario h3{
+         text-align: center;
+         padding: 0 0 20 0;
+         text-decoration-style: solid;
+         font-size: 15px;
+         border-top: 2px solid rgb(230, 4, 4);
+    }
+
+    .boton{
+        width: 100px;
+        height: 25px;
+        font-family: Courier;
+        font-size: 13px;
+        margin: 10px;
+    }
+
+    label{
+        position: relative;
+        top: 50%;
+        left: 5px;   
+        color: black;
+        transform: translateY(-50%);    
+        pointer-events: none;
+        font-size: 15px;
+        
+    }
+    .texto{
+        width: 110%;
+        padding: 0;
+        height: 30px;
+        font-size: 10px;
+        
+    }
+    .formulario i{
+        border-radius: 50%;
+        padding: 0px;    
+    }
+    
+}

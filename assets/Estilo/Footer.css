@@ -1,0 +1,9 @@
+footer {
+    background-color: #161917;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    min-height: 50px; /* Ajusta esta altura según tus necesidades */
+}
