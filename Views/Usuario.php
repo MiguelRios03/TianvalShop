@@ -9,7 +9,6 @@
     $address = $_SESSION["address"];
     $phone = $_SESSION["phone"];
 
-    
 ?>
 
 <!DOCTYPE html>
