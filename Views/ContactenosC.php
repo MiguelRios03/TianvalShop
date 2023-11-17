@@ -3,7 +3,6 @@ include '../DB/connection.php'
 ?>
 <?php
     echo '';
-
     session_start();
     
 if($_SESSION["email"] == "Administrador@gmail.com"){
